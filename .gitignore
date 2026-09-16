@@ -1,0 +1,17 @@
+# Real settings and passwords — never commit
+config.php
+
+# Live data: tasks, profiles and uploaded files (created automatically on first run)
+data/
+
+# Old data files from earlier versions
+tasks-data.php
+*.json.php
+*.tmp
+
+# System and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.zip
